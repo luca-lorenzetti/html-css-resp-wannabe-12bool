@@ -1,37 +1,51 @@
-[class*='col-'] h2{
+[class*='col-'] h2 {
     text-align: center;
     font-size: 30px;
     margin: 50px 0;
 }
-[class*='col-'] h4{
+
+[class*='col-'] h4 {
     font-size: 20px;
     margin-bottom: 20px;
 }
-[class*='col-'] p{
+
+[class*='col-'] p {
     margin-bottom: 50px;
 }
-.card{
+
+.card {
     border-bottom: 1px solid grey;
+    margin: 50px 0;
 }
-.container{
+
+.container {
     text-align: center;
 }
-img{
+
+img {
     height: 200px;
     padding: 25px;
 }
-.grey{
+
+.grey {
     background-color: #f9f9f9;
 }
 
-#perche-cademi{
-    margin-top: 50px;
+#perche-cademi {
+    margin-top: 100px;
 }
-#perche-cademi img{
+
+#perche-cademi p {
+    margin-top: 20px;
+}
+
+#perche-cademi img {
     background-color: #428bca;
     border-radius: 50%;
+    margin-bottom: 50px;
 
 }
+
 
 
 /* RESPONSIVE */
@@ -39,29 +53,27 @@ img{
 /* < 640px  Smartphone */
 
 @media screen and (max-width: 640px) {
-    
 
-
-}
-
-
-/*  from 641px to 1007px  Tablet */
-
-@media screen and (min-width: 641px) and (max-width: 1007px) {
-
-
-    [class*='col-'] *{
-        text-align: left;
-    }
-    [class*='col-md'] > .title >h4{
-        margin-top: 70px;
+    [class*='col-'] * {
+        text-align: right;
     }
 
-}
 
-/*  > 1008px  Desktop */
 
-@media screen and (min-width: 1008px) { 
-    
+    /*  from 641px to 1007px  Tablet */
 
-}
+    @media screen and (min-width: 641px) and (max-width: 1007px) {
+
+        [class*='col-'] * {
+            text-align: left;
+        }
+
+        [class*='col-md']>.title>h4,
+        [class*='col-md']>.text>p {
+            height: 50px;
+        }
+    }
+
+    /*  > 1008px  Desktop */
+
+    @media screen and (min-width: 1008px) {}
