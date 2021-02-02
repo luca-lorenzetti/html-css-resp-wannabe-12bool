@@ -1,7 +1,7 @@
 [class*='col-'] h2{
     text-align: center;
     font-size: 30px;
-    margin-top: 50px;
+    margin: 50px 0;
 }
 [class*='col-'] h4{
     font-size: 20px;
@@ -9,6 +9,9 @@
 }
 [class*='col-'] p{
     margin-bottom: 50px;
+}
+.card{
+    border-bottom: 1px solid grey;
 }
 .container{
     text-align: center;
@@ -21,6 +24,9 @@ img{
     background-color: #f9f9f9;
 }
 
+#perche-cademi{
+    margin-top: 50px;
+}
 #perche-cademi img{
     background-color: #428bca;
     border-radius: 50%;
