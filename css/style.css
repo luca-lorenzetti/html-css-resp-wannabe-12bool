@@ -1,0 +1,61 @@
+[class*='col-'] h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+[class*='col-'] h4{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+[class*='col-'] p{
+    margin-bottom: 50px;
+}
+.container{
+    text-align: center;
+}
+img{
+    height: 200px;
+    padding: 25px;
+}
+.grey{
+    background-color: #f9f9f9;
+}
+
+#perche-cademi img{
+    background-color: #428bca;
+    border-radius: 50%;
+
+}
+
+
+/* RESPONSIVE */
+
+/* < 640px  Smartphone */
+
+@media screen and (max-width: 640px) {
+    
+
+
+}
+
+
+/*  from 641px to 1007px  Tablet */
+
+@media screen and (min-width: 641px) and (max-width: 1007px) {
+
+
+    [class*='col-'] *{
+        text-align: left;
+    }
+    [class*='col-md'] > .title >h4{
+        margin-top: 70px;
+    }
+
+}
+
+/*  > 1008px  Desktop */
+
+@media screen and (min-width: 1008px) { 
+    
+
+}
